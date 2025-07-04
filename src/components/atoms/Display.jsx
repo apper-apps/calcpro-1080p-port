@@ -22,8 +22,8 @@ const Display = ({ currentInput, previousResult, error, className = '' }) => {
     return str
   }
 
-  return (
-    <div className={`calc-display bg-calc-display rounded-lg p-4 shadow-calc-display ${className}`}>
+return (
+    <div className={`calc-display bg-calc-display rounded-lg p-4 shadow-calc-display border-2 border-gray-600 ${className}`}>
       <div className="text-right space-y-1">
         {/* Previous result line */}
         <div className="text-calc-display-text font-mono text-sm opacity-70 min-h-[1.25rem]">

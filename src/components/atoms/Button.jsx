@@ -8,12 +8,12 @@ const Button = ({
   disabled = false,
   variant = 'default'
 }) => {
-  const getButtonStyles = () => {
-    const baseStyles = "calc-button rounded-lg font-medium shadow-calc-button hover:brightness-110 transition-all duration-100 text-center flex items-center justify-center"
+const getButtonStyles = () => {
+    const baseStyles = "calc-button rounded-lg font-medium shadow-calc-button hover:brightness-110 transition-all duration-100 text-center flex items-center justify-center border border-gray-400"
     
     switch (variant) {
       case 'number':
-        return `${baseStyles} bg-calc-surface text-calc-dark text-lg font-semibold`
+        return `${baseStyles} bg-ti84-surface text-black text-lg font-semibold`
       case 'operator':
         return `${baseStyles} bg-calc-button-operator text-white text-lg font-bold`
       case 'function':
@@ -25,7 +25,7 @@ const Button = ({
       case 'accent':
         return `${baseStyles} bg-calc-button-accent text-white text-sm font-medium`
       default:
-        return `${baseStyles} bg-calc-button text-calc-dark text-sm font-medium`
+        return `${baseStyles} bg-calc-button text-black text-sm font-medium`
     }
   }
 

@@ -5,21 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
+extend: {
       colors: {
-        'calc-body': '#2C3E50',
-        'calc-dark': '#34495E',
-        'calc-accent': '#3498DB',
-        'calc-surface': '#ECF0F1',
-        'calc-frame': '#95A5A6',
+        'ti84-body': '#1a1a2e',
+        'ti84-dark': '#16213e',
+        'ti84-accent': '#3498DB',
+        'ti84-surface': '#e8e9ea',
+        'ti84-frame': '#95A5A6',
         'calc-display': '#1a3a2e',
         'calc-display-text': '#00ff41',
-        'calc-button': '#BDC3C7',
-        'calc-button-dark': '#7F8C8D',
-        'calc-button-accent': '#3498DB',
-        'calc-button-operator': '#E67E22',
-        'calc-button-function': '#9B59B6',
-        'calc-button-equals': '#E74C3C'
+        'calc-button': '#d4d4d4',
+        'calc-button-dark': '#5a5a5a',
+        'calc-button-accent': '#8b8b8b',
+        'calc-button-operator': '#666666',
+        'calc-button-function': '#777777',
+        'calc-button-equals': '#4a4a4a'
       },
       fontFamily: {
         'mono': ['JetBrains Mono', 'Consolas', 'Monaco', 'monospace'],

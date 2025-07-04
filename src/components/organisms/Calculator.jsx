@@ -190,9 +190,9 @@ const Calculator = () => {
     return () => window.removeEventListener('keydown', handleKeyPress)
   }, [currentInput, handleButtonClick])
 
-  return (
+return (
     <motion.div
-      className="bg-calc-body p-6 rounded-2xl shadow-2xl calc-shadow max-w-md mx-auto"
+      className="bg-ti84-body p-6 rounded-3xl shadow-2xl calc-shadow max-w-md mx-auto border-2 border-ti84-dark"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
